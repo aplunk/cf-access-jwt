@@ -1,5 +1,5 @@
-import { getKey } from './jwks.js';
-import { DecodedJwt } from './types.js';
+import { getKey } from './jwks';
+import { DecodedJwt } from './types';
 
 /**
  * Verify the JWT's signature.

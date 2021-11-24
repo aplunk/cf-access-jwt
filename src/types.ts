@@ -32,8 +32,12 @@ export interface DecodedJwt {
   raw: RawJwt;
 }
 
+export interface JWK extends JsonWebKey {
+  kid?: string
+}
+
 export interface JsonWebKeyset {
-  keys: JsonWebKey[];
+  keys: JWK[];
 }
 
 export interface ValidJwtParseResult {

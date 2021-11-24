@@ -1,6 +1,6 @@
-import { decodeJwt } from './decode.js';
-import { DecodedJwt, JwtParseResult } from './types.js';
-import { verifyJwtSignature } from './verify.js';
+import { decodeJwt } from './decode';
+import { DecodedJwt, JwtParseResult } from './types';
+import { verifyJwtSignature } from './verify';
 
 /**
  * Parse a JWT.
